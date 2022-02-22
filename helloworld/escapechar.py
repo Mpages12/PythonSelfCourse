@@ -8,7 +8,8 @@ print('The pet shop owner said "No, no, \'e\'s uh,...he\'s resting".')
 # or 
 print("The pet shop owner said \"No, no, 'e's uh,...he's resting\".")
 
-print("""The pet shop owner said "No, no, 'e's uh,...he's resting". """)
+print("""The pet shop owner said "No, no, \
+'e's uh,...he's resting". """)
 
 anotherSplitString = """This string has been \
 split over \ 
@@ -17,3 +18,5 @@ line"""
 
 print(anotherSplitString)
 
+print(r"c:\Users\timbuchalka\notes.txt")
+print("c:\\Users\\timbuchalka\\notes.txt")
